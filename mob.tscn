@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=3 uid="uid://dd3aqmc3rm2fk"]
+
+[ext_resource type="Script" uid="uid://bildgrs6twp8w" path="res://mob.gd" id="1_nokgg"]
+[ext_resource type="PackedScene" uid="uid://cxufjal5gig1g" path="res://Police Car.glb" id="2_nokgg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_p11y5"]
+size = Vector3(1.42084, 1.4, 2.37524)
+
+[sub_resource type="Animation" id="Animation_nokgg"]
+resource_name = "float"
+length = 1.2
+loop_mode = 1
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ubaqv"]
+_data = {
+&"float": SubResource("Animation_nokgg")
+}
+
+[node name="Mob" type="CharacterBody3D" groups=["mob"]]
+collision_layer = 2
+collision_mask = 0
+script = ExtResource("1_nokgg")
+
+[node name="Pivot" type="Node3D" parent="."]
+
+[node name="Police Car" parent="Pivot" instance=ExtResource("2_nokgg")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00204468, 0.416797, -0.119507)
+shape = SubResource("BoxShape3D_p11y5")
+
+[node name="VisibleOnScreenNotifier3D" type="VisibleOnScreenNotifier3D" parent="."]
+aabb = AABB(-1.34174, -1, -1.85979, 2.68347, 2, 3.71958)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_ubaqv")
+}
+autoplay = "float"
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier3D" to="." method="_on_visible_on_screen_notifier_3d_screen_exited"]

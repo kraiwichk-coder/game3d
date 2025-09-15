@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ck2i68gt11rs8"]
+
+[ext_resource type="AudioStream" uid="uid://b8e7cr5kdp40s" path="res://police-siren-397963.mp3" id="1_fvyft"]
+
+[node name="MusicPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_fvyft")
+autoplay = true
+parameters/looping = true

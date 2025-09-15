@@ -1,0 +1,38 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1757934142
+default_bus_layout.tres::AudioBusLayout::-1::1757917545::0::1::::<><><>0<>0<><>::
+default_env.tres::Environment::-1::1757917545::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1757934142::0::1::::<><><>0<>0<><>::
+Gorilla.glb::PackedScene::8134201899299248290::1757931126::1757931214::1::::<><><>0<>0<>e6996d6fed74c1e26a07181e743f83d6<>res://.godot/imported/Gorilla.glb-e21fdb3771fe2b16149fa6f217e4cfaf.scn::uid://bb2qun8ujvx6s::::res://Gorilla_Tex_Gorilla.png
+icon.png::CompressedTexture2D::5727444712809842510::1606009720::1757917561::1::::<><><>0<>0<>cbc3aad002baa63d55578a3adff01ee4<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+main.tscn::PackedScene::3481335255494838300::1757934071::0::1::::<><><>0<>0<><>::uid://j35kbr0tjovu::::res://player.tscn<>uid://caccyvaj141d6::::res://main.gd<>uid://dd3aqmc3rm2fk::::res://mob.tscn<>uid://5rgt4tfhyrmy::::res://Skyscraper.glb<>uid://c5y8udtoea2nt::::res://Small Building.glb<>uid://ku7x6vyx5aqx::::res://fonts/Montserrat-Medium.ttf<>uid://cfy4ql2runugf::::res://score_label.gd
+player.tscn::PackedScene::691341617524679918::1757934072::0::1::::<><><>0<>0<><>::uid://b5xwsul8lvgr7::::res://player.gd<>uid://dn5jd8db2qeac::::res://Gorilla.glb
+player.gd::GDScript::4540935668283350834::1757930465::0::1::::<>CharacterBody3D<><>0<>0<><>::
+mob.gd::GDScript::2970833375971950068::1757930742::0::1::::<>CharacterBody3D<><>0<>0<><>::
+mob.tscn::PackedScene::7427660366474775568::1757934072::0::1::::<><><>0<>0<><>::uid://bildgrs6twp8w::::res://mob.gd<>uid://cxufjal5gig1g::::res://Police Car.glb
+main.gd::GDScript::4777135519368758677::1757929763::0::1::::<>Node<><>0<>0<><>::
+music_player.tscn::PackedScene::5531010842117764633::1757934072::0::1::::<><><>0<>0<><>::uid://b8e7cr5kdp40s::::res://police-siren-397963.mp3
+Police Car.glb::PackedScene::6428792001615370418::1757930836::1757930888::1::::<><><>0<>0<>28a2a3729c91da3f7548b4a83f9953f2<>res://.godot/imported/Police Car.glb-e4c8ef6cee0e260000fbc84cbd651575.scn::
+Gorilla_Tex_Gorilla.png::CompressedTexture2D::2513355649156794884::1757931161::1757931163::1::::<><><>0<>0<>ab3fd3b90d6f778319dc7b9feef98dbe<>res://.godot/imported/Gorilla_Tex_Gorilla.png-37cc83a799ddd73ea10d0bd77f0b32d5.s3tc.ctex::
+police-siren-397963.mp3::AudioStreamMP3::4712857489820817600::1757933814::1757933856::1::::<><><>0<>0<>1cc14ed27c3487d2ee5e20a334df24e5<>res://.godot/imported/police-siren-397963.mp3-2fd9e3b71b9add1ec88b73fd94d7c823.mp3str::
+Road_1229 Road.png::CompressedTexture2D::8495989710641907413::1757931682::1757931682::1::::<><><>0<>0<>d97ead780b5a89c10972950cf674cd55<>res://.godot/imported/Road_1229 Road.png-a6a0318977eec18c34eb29de9b6595be.s3tc.ctex::
+Road.glb::PackedScene::8263831839405077365::1757931654::1757931682::1::::<><><>0<>0<>bccbc124433d46374aa7628d13b3725a<>res://.godot/imported/Road.glb-1405c37a52697acabf7c9488ae2ee6d7.scn::uid://dtbryd5srljw4::::res://Road_1229 Road.png
+score_label.gd::GDScript::5175120637432738473::1757928594::0::1::::<>Label<><>0<>0<><>::
+Skyscraper.glb::PackedScene::2141159515766712452::1757932021::1757932066::1::::<><><>0<>0<>cee3ccba4c5534f8cf8b46789d5834e9<>res://.godot/imported/Skyscraper.glb-ac9677b287e64878e95d2bd313d4e0c2.scn::
+Small Building.glb::PackedScene::6930091306826806777::1757932036::1757932066::1::::<><><>0<>0<>52982ece5c6b4bbe7f5084f06dc0f5fb<>res://.godot/imported/Small Building.glb-811b41df6367acda9271c7301bd1f56e.scn::
+::res://art/::1757917562
+body.material::StandardMaterial3D::-1::1605908508::0::1::::<><><>0<>0<><>::
+eye.material::StandardMaterial3D::-1::1606514142::0::1::::<><><>0<>0<><>::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::3017982654177033592::1580874009::1757917561::1::::<><><>0<>0<>20a8bc6dfd5cbf44293ceaa4b0603c51<>res://.godot/imported/House In a Forest Loop.ogg-1a6a72ae843ad792b7039931227e8d50.oggvorbisstr::
+mob.glb::PackedScene::7444887663534722949::1606513980::1757917562::1::::<><><>0<>0<>4adbddeaa53edc4ad6973cc58735bfd0<>res://.godot/imported/mob.glb-3afb43c03b9d1598b6af5154e2543eac.scn::
+mob_body.material::StandardMaterial3D::-1::1606514142::0::1::::<><><>0<>0<><>::
+mob_eye.material::StandardMaterial3D::-1::1605969815::0::1::::<><><>0<>0<><>::
+player.glb::PackedScene::3271796948857291588::1606514058::1757917562::1::::<><><>0<>0<>bba36afbaaa22a0075bfcad90d66f7ea<>res://.godot/imported/player.glb-08dcfb373480a049995065542e37637b.scn::
+pupil.material::StandardMaterial3D::-1::1606514142::0::1::::<><><>0<>0<><>::
+::res://docs/::1757934142
+index.apple-touch-icon.png::CompressedTexture2D::8734087696851043906::1757934142::1757934168::1::::<><><>0<>0<>616fc99f4bb7d2d9ec04c6e4e9a55ea8<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
+index.icon.png::CompressedTexture2D::1639793466224051520::1757934142::1757934168::1::::<><><>0<>0<>4b7a31458dbae7032138aab885a3d294<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
+index.png::CompressedTexture2D::7745272785086875647::1757934142::1757934168::1::::<><><>0<>0<>598bc8d7fa645e851c6c638f753187ef<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
+::res://fonts/::1757917561
+LICENSE.txt::TextFile::-1::1605988452::0::1::::<><><>0<>0<><>::
+Montserrat-Medium.ttf::FontFile::745161670276971607::1323702000::1757917561::1::::<><><>0<>0<>6d53e7a521385e04f4b4808b6ee4d02f<>res://.godot/imported/Montserrat-Medium.ttf-e832861e4ad4110e172112dc430c04b0.fontdata::
