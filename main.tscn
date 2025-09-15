@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://bpunc28mbsl13"]
+[gd_scene load_steps=15 format=3 uid="uid://bpunc28mbsl13"]
 
 [ext_resource type="PackedScene" uid="uid://j35kbr0tjovu" path="res://player.tscn" id="1_0xm2m"]
 [ext_resource type="Script" uid="uid://caccyvaj141d6" path="res://main.gd" id="1_h2yge"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://c5y8udtoea2nt" path="res://Small Building.glb" id="4_272bh"]
 [ext_resource type="FontFile" uid="uid://ku7x6vyx5aqx" path="res://fonts/Montserrat-Medium.ttf" id="4_lquwl"]
 [ext_resource type="Script" uid="uid://cfy4ql2runugf" path="res://score_label.gd" id="5_7mycd"]
+[ext_resource type="FontFile" uid="uid://c8opkhyobdjyk" path="res://fonts/THSarabunNew Bold.ttf" id="8_5vw27"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1bvp3"]
 size = Vector3(60, 2, 60)
@@ -50,9 +51,6 @@ mesh = SubResource("BoxMesh_lquwl")
 
 [node name="Skyscraper" parent="Ground" instance=ExtResource("3_7mycd")]
 transform = Transform3D(2.675, 0, 0, 0, 2.675, 0, 0, 0, 2.675, -13, 0, 5)
-
-[node name="Skyscraper2" parent="Ground" instance=ExtResource("3_7mycd")]
-transform = Transform3D(2.675, 0, 0, 0, 2.675, 0, 0, 0, 2.675, 8, 0, -7)
 
 [node name="Small Building" parent="Ground" instance=ExtResource("4_272bh")]
 transform = Transform3D(5.965, 0, 0, 0, 5.965, 0, 0, 0, 5.965, 9, 0, 9)
@@ -150,7 +148,8 @@ offset_top = 18.0
 offset_right = 460.0
 offset_bottom = 48.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("4_lquwl")
+theme_override_fonts/font = ExtResource("8_5vw27")
+theme_override_font_sizes/font_size = 24
 text = "นายไกรวิชญ์ เขียวดวงดี 663380307-7"
 
 [connection signal="hit" from="Player" to="." method="_on_player_hit"]
