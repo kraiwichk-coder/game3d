@@ -1,24 +1,24 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1757936081
+::res://::1757937225
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::-1::1757917545::0::1::::<><><>0<>0<><>::
 default_env.tres::Environment/Environment::-1::1757917545::0::1::::<><><>0<>0<><>::
-export_presets.cfg::TextFile/TextFile::-1::1757936081::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1757937145::0::1::::<><><>0<>0<><>::
 Gorilla.glb::PackedScene/PackedScene::8134201899299248290::1757931126::1757931214::1::::<><><>0<>0<>e6996d6fed74c1e26a07181e743f83d6<>res://.godot/imported/Gorilla.glb-e21fdb3771fe2b16149fa6f217e4cfaf.scn::uid://bb2qun8ujvx6s::::res://Gorilla_Tex_Gorilla.png
 Gorilla_Tex_Gorilla.png::CompressedTexture2D/CompressedTexture2D::2513355649156794884::1757931161::1757931163::1::::<><><>0<>0<>ab3fd3b90d6f778319dc7b9feef98dbe<>res://.godot/imported/Gorilla_Tex_Gorilla.png-37cc83a799ddd73ea10d0bd77f0b32d5.s3tc.ctex::
 icon.png::CompressedTexture2D/CompressedTexture2D::5727444712809842510::1606009720::1757917561::1::::<><><>0<>0<>cbc3aad002baa63d55578a3adff01ee4<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-main.gd::GDScript::4777135519368758677::1757929763::0::1::::<>Node<><>0<>0<><>::
-main.tscn::PackedScene::3481335255494838300::1757936068::0::1::::<><><>0<>0<><>::uid://j35kbr0tjovu::::res://player.tscn<>uid://caccyvaj141d6::::res://main.gd<>uid://dd3aqmc3rm2fk::::res://mob.tscn<>uid://5rgt4tfhyrmy::::res://Skyscraper.glb<>uid://c5y8udtoea2nt::::res://Small Building.glb<>uid://ku7x6vyx5aqx::::res://fonts/Montserrat-Medium.ttf<>uid://cfy4ql2runugf::::res://score_label.gd
-mob.gd::GDScript::2970833375971950068::1757930742::0::1::::<>CharacterBody3D<><>0<>0<><>::
-mob.tscn::PackedScene::7427660366474775568::1757936022::0::1::::<><><>0<>0<><>::uid://bildgrs6twp8w::::res://mob.gd<>uid://cxufjal5gig1g::::res://Police Car.glb
-music_player.tscn::PackedScene::5531010842117764633::1757936022::0::1::::<><><>0<>0<><>::uid://b8e7cr5kdp40s::::res://police-siren-397963.mp3
-player.gd::GDScript::4540935668283350834::1757930465::0::1::::<>CharacterBody3D<><>0<>0<><>::
-player.tscn::PackedScene::691341617524679918::1757936022::0::1::::<><><>0<>0<><>::uid://b5xwsul8lvgr7::::res://player.gd<>uid://dn5jd8db2qeac::::res://Gorilla.glb
+main.gd::GDScript/GDScript::4777135519368758677::1757929763::0::1::::<>Node<><>0<>0<><>::
+main.tscn::PackedScene::3481335255494838300::1757937129::0::1::::<><><>0<>0<><>::uid://j35kbr0tjovu::::res://player.tscn<>uid://caccyvaj141d6::::res://main.gd<>uid://dd3aqmc3rm2fk::::res://mob.tscn<>uid://5rgt4tfhyrmy::::res://Skyscraper.glb<>uid://c5y8udtoea2nt::::res://Small Building.glb<>uid://ku7x6vyx5aqx::::res://fonts/Montserrat-Medium.ttf<>uid://cfy4ql2runugf::::res://score_label.gd<>uid://c8opkhyobdjyk::::res://fonts/THSarabunNew Bold.ttf
+mob.gd::GDScript/GDScript::2970833375971950068::1757930742::0::1::::<>CharacterBody3D<><>0<>0<><>::
+mob.tscn::PackedScene::7427660366474775568::1757937129::0::1::::<><><>0<>0<><>::uid://bildgrs6twp8w::::res://mob.gd<>uid://cxufjal5gig1g::::res://Police Car.glb
+music_player.tscn::PackedScene::5531010842117764633::1757937129::0::1::::<><><>0<>0<><>::uid://b8e7cr5kdp40s::::res://police-siren-397963.mp3
+player.gd::GDScript/GDScript::4540935668283350834::1757930465::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.tscn::PackedScene::691341617524679918::1757937129::0::1::::<><><>0<>0<><>::uid://b5xwsul8lvgr7::::res://player.gd<>uid://dn5jd8db2qeac::::res://Gorilla.glb
 Police Car.glb::PackedScene/PackedScene::6428792001615370418::1757930836::1757930888::1::::<><><>0<>0<>28a2a3729c91da3f7548b4a83f9953f2<>res://.godot/imported/Police Car.glb-e4c8ef6cee0e260000fbc84cbd651575.scn::
 police-siren-397963.mp3::AudioStreamMP3/AudioStreamMP3::4712857489820817600::1757933814::1757933856::1::::<><><>0<>0<>1cc14ed27c3487d2ee5e20a334df24e5<>res://.godot/imported/police-siren-397963.mp3-2fd9e3b71b9add1ec88b73fd94d7c823.mp3str::
-README.md::TextFile::-1::1757934966::0::1::::<><><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1757934966::0::1::::<><><>0<>0<><>::
 Road.glb::PackedScene/PackedScene::8263831839405077365::1757931654::1757931682::1::::<><><>0<>0<>bccbc124433d46374aa7628d13b3725a<>res://.godot/imported/Road.glb-1405c37a52697acabf7c9488ae2ee6d7.scn::uid://dtbryd5srljw4::::res://Road_1229 Road.png
 Road_1229 Road.png::CompressedTexture2D/CompressedTexture2D::8495989710641907413::1757931682::1757931682::1::::<><><>0<>0<>d97ead780b5a89c10972950cf674cd55<>res://.godot/imported/Road_1229 Road.png-a6a0318977eec18c34eb29de9b6595be.s3tc.ctex::
-score_label.gd::GDScript::5175120637432738473::1757928594::0::1::::<>Label<><>0<>0<><>::
+score_label.gd::GDScript/GDScript::5175120637432738473::1757928594::0::1::::<>Label<><>0<>0<><>::
 Skyscraper.glb::PackedScene/PackedScene::2141159515766712452::1757932021::1757932066::1::::<><><>0<>0<>cee3ccba4c5534f8cf8b46789d5834e9<>res://.godot/imported/Skyscraper.glb-ac9677b287e64878e95d2bd313d4e0c2.scn::
 Small Building.glb::PackedScene/PackedScene::6930091306826806777::1757932036::1757932066::1::::<><><>0<>0<>52982ece5c6b4bbe7f5084f06dc0f5fb<>res://.godot/imported/Small Building.glb-811b41df6367acda9271c7301bd1f56e.scn::
 ::res://art/::1757935125
@@ -30,19 +30,19 @@ mob_body.material::StandardMaterial3D/StandardMaterial3D::-1::1606514142::0::1::
 mob_eye.material::StandardMaterial3D/StandardMaterial3D::-1::1605969815::0::1::::<><><>0<>0<><>::
 player.glb::PackedScene/PackedScene::3271796948857291588::1606514058::1757917562::1::::<><><>0<>0<>bba36afbaaa22a0075bfcad90d66f7ea<>res://.godot/imported/player.glb-08dcfb373480a049995065542e37637b.scn::
 pupil.material::StandardMaterial3D/StandardMaterial3D::-1::1606514142::0::1::::<><><>0<>0<><>::
-::res://docs/::1757936081
-index.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::8734087696851043906::1757936081::1757934168::1::::<><><>0<>0<>616fc99f4bb7d2d9ec04c6e4e9a55ea8<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
-index.icon.png::CompressedTexture2D/CompressedTexture2D::1639793466224051520::1757936081::1757934168::1::::<><><>0<>0<>4b7a31458dbae7032138aab885a3d294<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
-index.png::CompressedTexture2D/CompressedTexture2D::7745272785086875647::1757936081::1757934168::1::::<><><>0<>0<>598bc8d7fa645e851c6c638f753187ef<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
-::res://fonts/::1757936308
+::res://docs/::1757937145
+index.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::8734087696851043906::1757937145::1757934168::1::::<><><>0<>0<>616fc99f4bb7d2d9ec04c6e4e9a55ea8<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
+index.icon.png::CompressedTexture2D/CompressedTexture2D::1639793466224051520::1757937145::1757934168::1::::<><><>0<>0<>4b7a31458dbae7032138aab885a3d294<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
+index.png::CompressedTexture2D/CompressedTexture2D::7745272785086875647::1757937145::1757934168::1::::<><><>0<>0<>598bc8d7fa645e851c6c638f753187ef<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
+::res://fonts/::1757936309
 LICENSE.txt::TextFile/TextFile::-1::1605988452::0::1::::<><><>0<>0<><>::
 Montserrat-Medium.ttf::FontFile/FontFile::745161670276971607::1323702000::1757917561::1::::<><><>0<>0<>6d53e7a521385e04f4b4808b6ee4d02f<>res://.godot/imported/Montserrat-Medium.ttf-e832861e4ad4110e172112dc430c04b0.fontdata::
-THSarabunNew Bold.ttf::FontFile::7118903514204971974::1573751342::1757936309::1::::<><><>0<>0<>65915edd25a54702d3cd67c2bd413903<>res://.godot/imported/THSarabunNew Bold.ttf-4a1d586056649eea25686432c428a2ca.fontdata::
-THSarabunNew BoldItalic.ttf::FontFile::4685635094773823605::1573751450::1757936309::1::::<><><>0<>0<>46fc3f351d82e1e462a866f83708111f<>res://.godot/imported/THSarabunNew BoldItalic.ttf-1a892c4505679fc3f461e24ac137b72d.fontdata::
-THSarabunNew Italic.ttf::FontFile::7045630831373969664::1573751256::1757936309::1::::<><><>0<>0<>ecad055f3e4995e816f90225c95c3cc0<>res://.godot/imported/THSarabunNew Italic.ttf-fc9174bb58b442cd36820ae3fbe94659.fontdata::
-THSarabunNew.ttf::FontFile::8199052253729962326::1573751150::1757936309::1::::<><><>0<>0<>fa0e4f9e90b28315844f2dd7fac0d24f<>res://.godot/imported/THSarabunNew.ttf-392cd31ba04e4af707fb84891edb73a0.fontdata::
-::res://fonts/__MACOSX/::1757936298
-._THSarabunNew Bold.ttf::FontFile::5934805073389777547::1573751342::1757936309::1::::<><><>0<>0<>6d9098218d8455a50776e6f6a701a727<>res://.godot/imported/._THSarabunNew Bold.ttf-28c44dc10df9f3ba02d9ccf97ed6d59a.fontdata::
-._THSarabunNew BoldItalic.ttf::FontFile::7305213218699095551::1573751450::1757936309::1::::<><><>0<>0<>35e1354bd5aaec7f70dc901725e934ed<>res://.godot/imported/._THSarabunNew BoldItalic.ttf-fc2dfa27b8f3ba9abb086551d5ecd43e.fontdata::
-._THSarabunNew Italic.ttf::FontFile::3293333833614708890::1573751256::1757936309::1::::<><><>0<>0<>63abf0017b38590495cf987f4b539382<>res://.godot/imported/._THSarabunNew Italic.ttf-0ab6460d48febe2d5c30280f33f6036c.fontdata::
-._THSarabunNew.ttf::FontFile::7596870212132938758::1573751150::1757936309::1::::<><><>0<>0<>25af7f8307d0011cd6edce1fecbb4f87<>res://.godot/imported/._THSarabunNew.ttf-68177701232b7c8afc60fdf0d765cdae.fontdata::
+THSarabunNew Bold.ttf::FontFile/FontFile::7118903514204971974::1573751342::1757936309::1::::<><><>0<>0<>65915edd25a54702d3cd67c2bd413903<>res://.godot/imported/THSarabunNew Bold.ttf-4a1d586056649eea25686432c428a2ca.fontdata::
+THSarabunNew BoldItalic.ttf::FontFile/FontFile::4685635094773823605::1573751450::1757936309::1::::<><><>0<>0<>46fc3f351d82e1e462a866f83708111f<>res://.godot/imported/THSarabunNew BoldItalic.ttf-1a892c4505679fc3f461e24ac137b72d.fontdata::
+THSarabunNew Italic.ttf::FontFile/FontFile::7045630831373969664::1573751256::1757936309::1::::<><><>0<>0<>ecad055f3e4995e816f90225c95c3cc0<>res://.godot/imported/THSarabunNew Italic.ttf-fc9174bb58b442cd36820ae3fbe94659.fontdata::
+THSarabunNew.ttf::FontFile/FontFile::8199052253729962326::1573751150::1757936309::1::::<><><>0<>0<>fa0e4f9e90b28315844f2dd7fac0d24f<>res://.godot/imported/THSarabunNew.ttf-392cd31ba04e4af707fb84891edb73a0.fontdata::
+::res://fonts/__MACOSX/::1757936309
+._THSarabunNew Bold.ttf::FontFile/FontFile::5934805073389777547::1573751342::1757936309::1::::<><><>0<>0<>6d9098218d8455a50776e6f6a701a727<>res://.godot/imported/._THSarabunNew Bold.ttf-28c44dc10df9f3ba02d9ccf97ed6d59a.fontdata::
+._THSarabunNew BoldItalic.ttf::FontFile/FontFile::7305213218699095551::1573751450::1757936309::1::::<><><>0<>0<>35e1354bd5aaec7f70dc901725e934ed<>res://.godot/imported/._THSarabunNew BoldItalic.ttf-fc2dfa27b8f3ba9abb086551d5ecd43e.fontdata::
+._THSarabunNew Italic.ttf::FontFile/FontFile::3293333833614708890::1573751256::1757936309::1::::<><><>0<>0<>63abf0017b38590495cf987f4b539382<>res://.godot/imported/._THSarabunNew Italic.ttf-0ab6460d48febe2d5c30280f33f6036c.fontdata::
+._THSarabunNew.ttf::FontFile/FontFile::7596870212132938758::1573751150::1757936309::1::::<><><>0<>0<>25af7f8307d0011cd6edce1fecbb4f87<>res://.godot/imported/._THSarabunNew.ttf-68177701232b7c8afc60fdf0d765cdae.fontdata::
