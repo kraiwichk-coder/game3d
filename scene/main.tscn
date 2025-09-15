@@ -1,10 +1,12 @@
-[gd_scene load_steps=13 format=3 uid="uid://cewjeef322hdi"]
+[gd_scene load_steps=15 format=3 uid="uid://bpunc28mbsl13"]
 
-[ext_resource type="PackedScene" uid="uid://2kofd35obdk6" path="res://player.tscn" id="1_0xm2m"]
-[ext_resource type="Script" path="res://main.gd" id="1_h2yge"]
-[ext_resource type="PackedScene" uid="uid://dte1uwh6fop04" path="res://mob.tscn" id="2_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://j35kbr0tjovu" path="res://scene/player.tscn" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://caccyvaj141d6" path="res://scene/main.gd" id="1_h2yge"]
+[ext_resource type="PackedScene" uid="uid://dd3aqmc3rm2fk" path="res://scene/mob.tscn" id="2_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://5rgt4tfhyrmy" path="res://art/Skyscraper.glb" id="3_7mycd"]
+[ext_resource type="PackedScene" uid="uid://c5y8udtoea2nt" path="res://art/Small Building.glb" id="4_272bh"]
 [ext_resource type="FontFile" uid="uid://ku7x6vyx5aqx" path="res://fonts/Montserrat-Medium.ttf" id="4_lquwl"]
-[ext_resource type="Script" path="res://score_label.gd" id="5_7mycd"]
+[ext_resource type="Script" uid="uid://cfy4ql2runugf" path="res://scene/score_label.gd" id="5_7mycd"]
 [ext_resource type="FontFile" uid="uid://c8opkhyobdjyk" path="res://fonts/THSarabunNew Bold.ttf" id="8_5vw27"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1bvp3"]
@@ -46,6 +48,12 @@ shape = SubResource("BoxShape3D_1bvp3")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Ground"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
 mesh = SubResource("BoxMesh_lquwl")
+
+[node name="Skyscraper" parent="Ground" instance=ExtResource("3_7mycd")]
+transform = Transform3D(2.675, 0, 0, 0, 2.675, 0, 0, 0, 2.675, -13, 0, 5)
+
+[node name="Small Building" parent="Ground" instance=ExtResource("4_272bh")]
+transform = Transform3D(5.965, 0, 0, 0, 5.965, 0, 0, 0, 5.965, 9, 0, 9)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -1, 10, 0)
@@ -135,14 +143,14 @@ text = "Press Enter to retry."
 
 [node name="Label" type="Label" parent="UserInterface"]
 layout_mode = 0
-offset_left = 118.0
+offset_left = 119.0
 offset_top = 18.0
-offset_right = 459.0
-offset_bottom = 50.0
+offset_right = 460.0
+offset_bottom = 48.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("8_5vw27")
 theme_override_font_sizes/font_size = 24
-text = "นาย ไกรวิชญ์ เขียวดวงดี 663380307-7"
+text = "นายไกรวิชญ์ เขียวดวงดี 663380307-7"
 
 [connection signal="hit" from="Player" to="." method="_on_player_hit"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]

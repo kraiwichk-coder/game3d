@@ -1,7 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://2kofd35obdk6"]
+[gd_scene load_steps=8 format=3 uid="uid://j35kbr0tjovu"]
 
-[ext_resource type="Script" path="res://player.gd" id="1_onrkg"]
-[ext_resource type="PackedScene" path="res://Gorilla.glb" id="2_onrkg"]
+[ext_resource type="Script" uid="uid://b5xwsul8lvgr7" path="res://scene/player.gd" id="1_onrkg"]
+[ext_resource type="PackedScene" uid="uid://dn5jd8db2qeac" path="res://art/Gorilla.glb" id="2_onrkg"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_onrkg"]
 radius = 1.0

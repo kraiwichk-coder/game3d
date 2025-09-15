@@ -1,7 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://dte1uwh6fop04"]
+[gd_scene load_steps=6 format=3 uid="uid://dd3aqmc3rm2fk"]
 
-[ext_resource type="Script" path="res://mob.gd" id="1_nokgg"]
-[ext_resource type="PackedScene" path="res://Police Car.glb" id="2_nokgg"]
+[ext_resource type="Script" uid="uid://bildgrs6twp8w" path="res://mob.gd" id="1_nokgg"]
+[ext_resource type="PackedScene" uid="uid://cxufjal5gig1g" path="res://Police Car.glb" id="2_nokgg"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_p11y5"]
 size = Vector3(1.42084, 1.4, 2.37524)
