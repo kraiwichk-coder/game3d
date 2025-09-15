@@ -10,13 +10,13 @@ radius = 1.0
 height = 0.512695
 radius = 1.2
 
+[sub_resource type="Animation" id="Animation_i3pqv"]
+length = 0.001
+
 [sub_resource type="Animation" id="Animation_onrkg"]
 resource_name = "float"
 length = 1.2
 loop_mode = 1
-
-[sub_resource type="Animation" id="Animation_i3pqv"]
-length = 0.001
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hqtel"]
 _data = {
